@@ -84,8 +84,7 @@ const CommonModal = ({ selectedDate }) => {
           // Check if the response status is OK (200-299)
           if (data.status === "success") {
             // Redirect to another page after successful form submission
-            window.location.href =
-              "http://localhost/forms/thankyou.html"; // Replace with your desired redirect URL
+            window.location.href = "http://localhost/forms/thankyou.html"; // Replace with your desired redirect URL
           } else {
             // Handle the errors or display the error message from the backend
             console.error("Error:", data.message);
@@ -151,12 +150,11 @@ const CommonModal = ({ selectedDate }) => {
                       <i className="fa-solid fa-location-dot"></i>
                     </div>
                     <div>
-                      <h5>Kothaguda Clinic
-                      </h5>
+                      <h5>Kondapur Clinic</h5>
                       <p>
-                        5th Floor, Above Sachdev Sports, Sri Tirumala’s Subash
-                        Arcade, H.1-62/1 Kondapur, X Roads, Kothaguda,
-                        Hyderabad, Telangana 500084
+                        5th Floor, Above Sachdev Sports, Sri Tirumala Subash
+                        Arcade, Kondapur X Roads, Kothaguda, Hyderabad,
+                        Telangana 500084.
                       </p>
                     </div>
                   </div>
@@ -174,9 +172,9 @@ const CommonModal = ({ selectedDate }) => {
                     <div>
                       <h5>Nallagandla Clinic</h5>
                       <p>
-                        Plot 101/D, RISE Commercial Complex, 3rd Floor, Over Van
-                        Lavino Cafe, opp. to APARNA SAROVAR GRANDE, Nallagandla,
-                        Telangana 500019
+                        RISE Commercial Complex, 3rd Floor, Over Van Lavino
+                        Cafe, Opp. to APARNA SAROVAR GRANDE,
+                        Nallagandla,Telangana 500019.
                       </p>
                     </div>
                   </div>

@@ -1,8 +1,26 @@
-.fullwebssiteClass{
+/* .fullwebssiteClass{
     max-width: 1500px;
     margin: auto;
 }
 .navbar-parent {
+    max-width: 1500px;
+    margin: auto;
+} */
+@media screen and (min-width:1500px){
+    .row.banner-row.text-white.w-100.p-0.m-0 {
+        min-width: 1500px;
+        margin: auto !important;
+        max-width: 1600px;
+    }
+    .banner-sub-parent {
+        background-color: #013aa5;
+    }
+}
+.excellence-sub-parent .col-md-11.col-lg-9.mx-auto {
+    max-width: 1100px;
+    margin: auto;
+}
+.counter-sub-parent{
     max-width: 1500px;
     margin: auto;
 }
